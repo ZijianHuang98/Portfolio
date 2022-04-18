@@ -2,111 +2,110 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: "Social",
+        title: "My 23's Birthday",
         img:
-            "assets/p1.jpeg",
+            "assets/birth.JPG",
     },
     {
         id: 2,
-        title: "Rampa UI Design",
+        title: "Badminton IM League Champion, yeah~",
         img:
-        "assets/p1.jpeg",
+            "assets/champion.JPG",
     },
     {
         id: 3,
-        title: "E-commerce Web Design",
+        title: "Wow,Lake Ozark Cave",
         img:
-        "assets/p1.jpeg",
+            "assets/ozark.JPG",
     },
     {
         id: 4,
-        title: "Relax Mobile App",
+        title: "Forest Park Sledding,Can't Wait The Next Snow!",
         img:
-        "assets/p1.jpeg",
+            "assets/sledding.jpeg",
     },
     {
         id: 5,
-        title: "Hero Web Design",
-        img:
-        "assets/p1.jpeg",
+        title: "Halloween, Watch out! There is a gorilla",
+        img: "assets/halloween.jpeg",
     },
     {
         id: 6,
-        title: "Banking App",
+        title: "So Much Fun At City Museum",
         img:
-        "assets/p1.jpeg",
+            "assets/city.jpeg",
     },
 ];
 
 export const webPortfolio = [
     {
         id: 1,
-        title: "Web Social Media App",
-        img: "assets/p1.jpeg",
+        title: "Go Cardinals!",
+        img: "assets/car.jpeg",
     },
     {
         id: 2,
-        title: "Web Rampa UI Design",
-        img: "assets/p1.jpeg",
+        title: "Traveling -Las Vegas",
+        img: "assets/las.jpeg",
     },
     {
         id: 3,
-        title: "Web E-commerce Design",
-        img: "assets/p1.jpeg",
+        title: "Traveling -Montreal",
+        img: "assets/mon.jpeg",
     },
     {
         id: 4,
-        title: "Web Relax App",
-        img: "assets/p1.jpeg",
+        title: "Fishing Time!",
+        img: "assets/fi.jpeg",
     },
     {
         id: 5,
-        title: "Web Design",
-        img: "assets/p1.jpeg",
+        title: "Full-time Wizard",
+        img: "assets/hali.jpeg",
     },
     {
         id: 6,
-        title: "Web Banking App",
-        img: "assets/p1.jpeg",
+        title: "Traveling -Fire State Park",
+        img: "assets/fire.jpeg",
     },
 ];
 
 export const mobilePortfolio = [
     {
         id: 1,
-        title: "Mobile Social Media App",
+        title: "Our Team",
         img:
-        "assets/p1.jpeg",
+            "assets/happ.JPG",
     },
     {
         id: 2,
-        title: "Mobile Rampa UI Design",
+        title: "Our Team",
         img:
-        "assets/p1.jpeg",
+            "assets/t2.JPG",
     },
     {
         id: 3,
-        title: "Mobile E-commerce Design",
+        title: "Our Team",
         img:
-        "assets/p1.jpeg",
+            "assets/t3.JPG",
     },
     {
         id: 4,
-        title: "Mobile Relax App",
+        title: "~",
         img:
-        "assets/p1.jpeg",
+            "assets/3j.JPG",
     },
     {
         id: 5,
-        title: "Mobile Hero Design",
+        title: "~",
         img:
-        "assets/p1.jpeg",
+            "assets/t4.PNG",
     },
     {
         id: 6,
-        title: "Mobile Banking App",
+        title: "~",
         img:
-        "assets/p1.jpeg",
+            "assets/t6.PNG",
     },
 ];
 
@@ -115,7 +114,7 @@ export const designPortfolio = [
         id: 1,
         title: "Design Social Media App",
         img:
-        "assets/p1.jpeg",
+            "assets/p1.jpeg",
     },
     {
         id: 2,
@@ -127,7 +126,7 @@ export const designPortfolio = [
         id: 3,
         title: "Design E-commerce Web Design",
         img:
-        "assets/p1.jpeg",
+            "assets/p1.jpeg",
     },
     {
         id: 4,
@@ -152,38 +151,38 @@ export const designPortfolio = [
 export const contentPortfolio = [
     {
         id: 1,
-        title: "Content Social Media App",
+        title: "Meow",
         img:
-            "assets/p1.jpeg",
+            "assets/c1.jpeg",
     },
     {
         id: 2,
-        title: "Content Rampa UI Design",
+        title: "zZZ",
         img:
-            "assets/p1.jpeg",
+            "assets/c2.jpeg",
     },
     {
         id: 3,
-        title: "Content E-commerce Web Design",
+        title: "Hi~",
         img:
-            "assets/p1.jpeg",
+            "assets/c3.jpeg",
     },
     {
         id: 4,
-        title: "Content Relax Mobile App",
+        title: "My Dream Dog",
         img:
-            "assets/p1.jpeg",
+            "assets/d1.jpeg",
     },
     {
         id: 5,
-        title: "Content Keser Web Design",
+        title: "So Cute",
         img:
-            "assets/p1.jpeg",
+            "assets/d2.jpeg",
     },
     {
         id: 6,
-        title: "Content Banking App",
+        title: "AW",
         img:
-            "assets/p1.jpeg",
+            "assets/d3.jpeg",
     },
 ];

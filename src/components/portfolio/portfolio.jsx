@@ -16,23 +16,19 @@ export default function Portfolio() {
     const list = [
         {
             id: "featured",
-            title: "Me",
+            title: "Zijian and his friends",
         },
         {
             id: "web",
-            title: "Software Development",
+            title: "Zijian's Hbbies",
         },
         {
             id: "mobile",
-            title: "Leadership Experience",
-        },
-        {
-            id: "design",
-            title: "My Love",
+            title: "Golbal Orientation Leader's Team",
         },
         {
             id: "content",
-            title: "Traveling",
+            title: "What else?",
         },
     ];
     useEffect(() => {
