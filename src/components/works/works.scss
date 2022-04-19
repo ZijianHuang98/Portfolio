@@ -1,89 +1,251 @@
-.works{
-    background-color: lightgreen;
+
+@import "../../global.scss";
+
+.works {
+    background-color: lightgrey;
     display: flex;
     align-items: center;
     justify-content: center;
-    .slider{
-        height: 350px;
+    position: relative;
+
+    .arrow {
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+
+        // @include mobile {
+        //     display: none;
+        // }
+
+        &.left {
+            left: 100px;
+            transform: rotateY(180deg);
+        }
+
+        &.right {
+            right: 100px;
+        }
+    }
+
+    .slider {
+        height: 500px;
         display: flex;
         position: absolute;
-        left:0;
-        .container{
+        left: 0;
+        transition: all 1s ease-out;
+
+        // @include mobile {
+        //     height: 100vh;
+        //     flex-direction: column;
+        //     justify-content: center;
+        // }
+
+        .container {
             width: 100vw;
-            height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            .item{
-                width: 700px;
-                height:100%;
-                display: flex;
-                background-color: #fff;
+
+            .item {
+                width: 900px;
+                height: 100%;
+                background-color: white;
                 border-radius: 20px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
 
-                .left{
-                    height:80%;
-                    flex:4;
-                    background-color:#fff;
+                // @include mobile {
+                //     width: 80%;
+                //     height: 150px;
+                //     margin: 15px 0;
+                // }
+
+                .left {
+                    flex: 4;
+                    height: 80%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    .leftContainer{
+
+                    .leftContainer {
                         width: 90%;
                         height: 70%;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
-                        .imgContainer{
-                            width: 50px;
-                            height: 50px;
+
+                        .imgContainer {
+                            width: 40px;
+                            height: 40px;
                             border-radius: 50%;
-                            background-color: aqua;
+                            background-color: rgb(245, 179, 155);
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            img{
-                                width: 40px;
+
+                            // @include mobile {
+                            //     width: 20px;
+                            //     height: 20px;
+                            // }
+
+                            img {
+                                width: 25px;
+
+                                // @include mobile {
+                                //     width: 15px;
+                                // }
                             }
                         }
-                        h2{
-                            font-size: 20px;
+
+                        h2 {
+                            font-size: 27px;
+
+                            // @include mobile {
+                            //     font-size: 13px;
+                            // }
                         }
-                        p{
-                            font-size: 13px;
+
+                        p {
+                            font-size: 16px;
+
+                            // @include mobile {
+                            //     display: none;
+                            // }
                         }
-                        span{
-                            font-size: 12px;
+
+                        span {
+                            font-size: 18px;
                             font-weight: 600;
                             text-decoration: underline;
                             cursor: pointer;
                         }
                     }
                 }
-                .right{
-                    height:100%;
-                    flex:8;
-                    background-color: white;
+
+                .right {
+                    flex: 8;
+                    height: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    overflow-y: hidden;
-                    .rightContainer{
-                        img{
-                        width: 470px;
-                        height: 400px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
+                    overflow: hidden;
+
+                    img {
+                        width: 600px;
+                        height: 480px;
+                        //transform: rotate(-10deg);
                     }
                 }
-            }
-
-
             }
         }
     }
 }
+// .works {
+//     background-color: crimson;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     position: relative;
+//     .arrow {
+//         position: absolute;
+//         &.left{
+//             left:200px;
+//             transform: rotateY(90deg);
+//         }
+//     }
+
+//     .slider {
+//         height: 500px;
+//         display: flex;
+//         position: absolute;
+//         left: 0;
+
+//         .container {
+//             width: 100vw;
+//             height: 100%;
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+
+//             .item {
+//                 width: 900px;
+//                 height: 100%;
+//                 display: flex;
+//                 background-color: #fff;
+//                 border-radius: 20px;
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;
+
+//                 .left {
+//                     height: 80%;
+//                     flex: 4;
+//                     background-color: #fff;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+
+//                     .leftContainer {
+//                         width: 90%;
+//                         height: 70%;
+//                         display: flex;
+//                         flex-direction: column;
+//                         justify-content: space-between;
+
+//                         .imgContainer {
+//                             width: 50px;
+//                             height: 50px;
+//                             border-radius: 50%;
+//                             background-color: aqua;
+//                             display: flex;
+//                             align-items: center;
+//                             justify-content: center;
+
+//                             img {
+//                                 width: 40px;
+//                             }
+//                         }
+
+//                         h2 {
+//                             font-size: 20px;
+//                         }
+
+//                         p {
+//                             font-size: 17px;
+//                         }
+
+//                         span {
+//                             font-size: 17px;
+//                             font-weight: 1000;
+//                             text-decoration: underline;
+//                             cursor: pointer;
+//                         }
+//                     }
+//                 }
+
+//                 .right {
+//                     height: 100%;
+//                     flex: 8;
+//                     background-color: white;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+//                     overflow-y: hidden;
+
+//                     .rightContainer {
+//                         img {
+//                             width: 600px;
+//                             height: 100%;
+//                             display: flex;
+//                             align-items: center;
+//                             justify-content: center;
+//                         }
+//                     }
+//                 }
+
+
+//             }
+//         }
+//     }
+// }
