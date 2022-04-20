@@ -24,7 +24,7 @@ export default function Works() {
         },
         {
             id: "3",
-            icon: "./assets/writing.png",
+            icon: "./assets/game.png",
             title: "Amazon Game",
             desc:
                 "Used React and node.js to build a interesting game, feel free to try it out with your friends.",
@@ -40,7 +40,9 @@ export default function Works() {
     };
 
     return (
+        
         <div className="works" id="works">
+            <h1 className="project">Projects</h1>
             <div
                 className="slider"
                 style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
