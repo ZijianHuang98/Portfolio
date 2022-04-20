@@ -35,7 +35,8 @@ export default function Contact() {
         <LinkedInIcon fontSize="large" color="primary"/>
             <span>www.linkedin.com/in/zhk2x</span>
             </div>
-            <h3>Thank you so much for veiwing my website, hope you enjoy it </h3>
+            <br />
+            <h2>Thank you so much for veiwing my website, hope you enjoy it </h2>
       </div>
     </div>
   );
