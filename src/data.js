@@ -109,44 +109,7 @@ export const mobilePortfolio = [
     },
 ];
 
-export const designPortfolio = [
-    {
-        id: 1,
-        title: "Design Social Media App",
-        img:
-            "assets/p1.jpeg",
-    },
-    {
-        id: 2,
-        title: "Design Rampa UI Design",
-        img:
-            "assets/p1.jpeg",
-    },
-    {
-        id: 3,
-        title: "Design E-commerce Web Design",
-        img:
-            "assets/p1.jpeg",
-    },
-    {
-        id: 4,
-        title: "Design Relax Mobile App",
-        img:
-            "assets/p1.jpeg",
-    },
-    {
-        id: 5,
-        title: "Design Keser Web Design",
-        img:
-            "assets/p1.jpeg",
-    },
-    {
-        id: 6,
-        title: "Design Banking App",
-        img:
-            "assets/p1.jpeg",
-    },
-];
+
 
 export const contentPortfolio = [
     {

@@ -16,7 +16,7 @@ export default function Portfolio() {
     const list = [
         {
             id: "featured",
-            title: "Zijian and his friends",
+            title: "Zijian And His Friends",
         },
         {
             id: "web",
@@ -41,9 +41,6 @@ export default function Portfolio() {
                 break;
             case "mobile":
                 setData(mobilePortfolio);
-                break;
-            case "design":
-                setData(designPortfolio);
                 break;
             case "content":
                 setData(contentPortfolio);

@@ -7,22 +7,27 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 40px;
         font-size: 50px;
     }
 
     .umsl {
 
-
+        display: flex;
         align-items: flex-start;
-        padding: 5px;
+        padding: 40px;
+        margin-top: 20px;
 
         .logo {
-            margin-left: 10px;
+            flex: 0.2;
 
             img {
                 max-height: 150px;
             }
+        }
+
+        .c1 {
+            flex: 0.8
         }
 
         h2 {
@@ -30,20 +35,59 @@
         }
 
         h3 {
-            margin-left: 10px;
+            margin-left: 4px;
             padding: 5px;
         }
+
         img {
             max-height: 130px;
+            max-width: 250px;
         }
 
     }
 
+    .experience {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 50px;
 
-    
-            Button {
-                text-decoration: none;
-                margin-left: 20px;
+        .worked {
+            flex: 0.2;
+
+            img {
+                margin-top: 20px;
+                max-height: 150px;
+                max-width: 250px;
             }
-            
+        }
+
+        .c2 {
+            flex: 0.8;
+        }
+
+        h2 {
+            margin-left: 10px;
+        }
+
+        h3 {
+            margin-left: 4px;
+            padding: 5px;
+        }
+
+
+
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: 20px;
+        width: 20%;
+    }
+
+
+
+
 }
