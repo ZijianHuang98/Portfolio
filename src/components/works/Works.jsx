@@ -61,7 +61,7 @@ export default function Works() {
                                     </div>
                                     <h2>{d.title}</h2>
                                     <p>{d.desc}</p>
-                                    <Button color="secondary" href={d.url} variant="outlined" size="large">See the Project</Button>
+                                    <Button color="secondary" href={d.url} variant="outlined" size="large" className="btn">See the Project</Button>
                                 </div>
                             </div>
                             <div className="right">

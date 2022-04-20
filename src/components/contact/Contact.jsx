@@ -12,8 +12,9 @@ export default function Contact() {
         <img src="assets/shake.svg" alt="" />
       </div>
       <div className="right">
+      <h2 className='header'>Thank you so much for veiwing my website, hope you enjoy it </h2>
+      <hr />
         <h1>Get In Touch</h1>
-        <h3>You can reach out me through email, phone calls, and  even Github and LinkedIn :)</h3>
         {/* <div className="itemContainer">
         <HomeIcon/>
             <span>7782 W Bruno Ave, St.Louis, MO, 63117</span>
@@ -27,6 +28,8 @@ export default function Contact() {
                         <PhoneIphoneIcon className="icon" />
                         <span>314-532-0668</span>
                     </div> */}
+                    <div className='info'>
+        <h3>You can reach out me through email, phone calls, and  even Github and LinkedIn :)</h3>
                     <div className="itemContainer">
         <GitHubIcon fontSize="large"color="secondary"/>
             <span>https://github.com/ZijianHuang98</span>
@@ -36,7 +39,7 @@ export default function Contact() {
             <span>www.linkedin.com/in/zhk2x</span>
             </div>
             <br />
-            <h2>Thank you so much for veiwing my website, hope you enjoy it </h2>
+            </div>
       </div>
     </div>
   );

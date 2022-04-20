@@ -28,7 +28,7 @@ export default function testimonials() {
                 </div>
                 <div className="c2">
                 <h2>Global Orientation Leader</h2>
-                <h3>12/2022</h3>
+                <h3>12/2021 - 01/2022</h3>
                 <h3>University Missouri St. Louis/ International Office • St. Louis, MO</h3>
                 <h2>Mathematics Tutor</h2>
                 <h3>09/2020 - 08/2021</h3>
@@ -46,9 +46,7 @@ export default function testimonials() {
                 <h3>University Missouri St. Louis/ Tutoring Center • St. Louis, MO</h3>
                 <br />
                 <Button color="secondary" href="./assets/Zijian_new.pdf" variant="outlined" size="large">Check My Resume in PDF</Button> */}
-                <div className="btn">
-                <Button color="secondary" href="./assets/Zijian_new.pdf" variant="outlined" size="large" >Check My Resume in PDF</Button>
-                </div>
+                <Button color="secondary" href="./assets/Zijian_new.pdf" variant="outlined" size="large" className="btn">Check My Resume in PDF</Button>
             
         </div>
     )

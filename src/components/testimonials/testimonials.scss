@@ -1,7 +1,14 @@
+@import "../../global.scss";
+
 .education {
     background-color: white;
     display: flex;
     flex-direction: column;
+
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+    }
 
     .header {
         display: flex;
@@ -9,6 +16,11 @@
         justify-content: center;
         margin-top: 40px;
         font-size: 50px;
+
+        @include mobile {
+            font-size: 25px;
+            margin-top: 0;
+        }
     }
 
     .umsl {
@@ -19,10 +31,19 @@
         margin-top: 20px;
 
         .logo {
+
             flex: 0.2;
 
+            @include mobile {
+                display: flex;
+                align-items: flex-start;
+            }
+
+
             img {
+                display: flex;
                 max-height: 150px;
+
             }
         }
 
@@ -32,17 +53,25 @@
 
         h2 {
             margin-left: 10px;
+
+            @include mobile {
+                font-size: 20px;
+            }
         }
 
         h3 {
             margin-left: 4px;
             padding: 5px;
+
+            @include mobile {
+                font-size: 10px;
+            }
         }
 
-        img {
-            max-height: 130px;
-            max-width: 250px;
-        }
+        // img {
+        //     max-height: 130px;
+        //     max-width: 250px;
+        // }
 
     }
 
@@ -53,6 +82,11 @@
 
         .worked {
             flex: 0.2;
+
+            @include mobile {
+                display: flex;
+                align-items: flex-start;
+            }
 
             img {
                 margin-top: 20px;
@@ -67,11 +101,19 @@
 
         h2 {
             margin-left: 10px;
+
+            @include mobile {
+                font-size: 20px;
+            }
         }
 
         h3 {
             margin-left: 4px;
             padding: 5px;
+
+            @include mobile {
+                font-size: 15px;
+            }
         }
 
 
@@ -79,12 +121,20 @@
     }
 
     .btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 40px;
-        font-size: 20px;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        // margin-top: 40px;
+        // font-size: 20px;
         width: 20%;
+
+        @include mobile {
+            margin-top: 30px;
+            align-items: center;
+            height: 60px;
+            width: 180px;
+            overflow: hidden;
+        }
     }
 
 
