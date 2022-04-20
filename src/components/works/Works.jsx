@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from '@mui/material/Button';
 import "./works.scss";
 
 export default function Works() {
@@ -12,6 +13,7 @@ export default function Works() {
                 "Used Angular,Spring boot, and mySQL to build an employee management App, users can search, add, delete, and modify employees",
             img:
                 "./assets/emp.png",
+                url:"https://github.com/ZijianHuang98/employeeManager"
         },
         {
             id: "2",
@@ -21,6 +23,7 @@ export default function Works() {
                 "Used Express, Superagent to build APIs, and ths application will display all the pokemons and their basic information which you search",
             img:
                 "./assets/pok.png",
+                url:"https://github.com/ZijianHuang98/pokemon"
         },
         {
             id: "3",
@@ -30,6 +33,7 @@ export default function Works() {
                 "Used React and node.js to build a interesting game, feel free to try it out with your friends.",
             img:
                 "./assets/ama.png",
+                url:"https://dtuan2604.github.io/flaming_arrow/"
         },
     ];
 
@@ -57,7 +61,7 @@ export default function Works() {
                                     </div>
                                     <h2>{d.title}</h2>
                                     <p>{d.desc}</p>
-                                    <span>Projects</span>
+                                    <Button color="secondary" href={d.url} variant="outlined" size="large">See the Project</Button>
                                 </div>
                             </div>
                             <div className="right">

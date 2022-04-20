@@ -2,9 +2,9 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: "My 23's Birthday",
+        title: "STL Aquarium",
         img:
-            "assets/birth.JPG",
+            "assets/shui.jpeg",
     },
     {
         id: 2,
