@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.625173ac.css",
-    "main.js": "/static/js/main.df3d2776.js",
-    "index.html": "/index.html",
-    "main.625173ac.css.map": "/static/css/main.625173ac.css.map",
-    "main.df3d2776.js.map": "/static/js/main.df3d2776.js.map"
+    "main.css": "/zijian/static/css/main.625173ac.css",
+    "main.js": "/zijian/static/js/main.df3d2776.js",
+    "index.html": "/zijian/index.html",
+    "main.625173ac.css.map": "/zijian/static/css/main.625173ac.css.map",
+    "main.df3d2776.js.map": "/zijian/static/js/main.df3d2776.js.map"
   },
   "entrypoints": [
     "static/css/main.625173ac.css",
