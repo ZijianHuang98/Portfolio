@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zijian/static/css/main.06cc413e.css",
+    "main.js": "/zijian/static/js/main.b184e9cf.js",
+    "index.html": "/zijian/index.html",
+    "main.06cc413e.css.map": "/zijian/static/css/main.06cc413e.css.map",
+    "main.b184e9cf.js.map": "/zijian/static/js/main.b184e9cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06cc413e.css",
+    "static/js/main.b184e9cf.js"
+  ]
+}
