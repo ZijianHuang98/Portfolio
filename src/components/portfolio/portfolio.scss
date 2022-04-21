@@ -56,8 +56,8 @@
             transition: all 0.8s ease;
 
             @include mobile {
-                width: 130px;
-                height: 130px;
+                width: 100px;
+                height: 100px;
             }
 
             h3 {

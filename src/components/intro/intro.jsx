@@ -29,7 +29,7 @@ export default function Intro() {
                     <h1>Zijian Huang</h1>
                     <h3>Full-time  <span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#testimonials">
                     <img src="assets/down.png" alt="" />
                 </a>
             </div>
