@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zijian/static/css/main.625173ac.css",
-    "main.js": "/zijian/static/js/main.340ef618.js",
+    "main.js": "/zijian/static/js/main.fabf10c3.js",
     "index.html": "/zijian/index.html",
     "main.625173ac.css.map": "/zijian/static/css/main.625173ac.css.map",
-    "main.340ef618.js.map": "/zijian/static/js/main.340ef618.js.map"
+    "main.fabf10c3.js.map": "/zijian/static/js/main.fabf10c3.js.map"
   },
   "entrypoints": [
     "static/css/main.625173ac.css",
-    "static/js/main.340ef618.js"
+    "static/js/main.fabf10c3.js"
   ]
 }
