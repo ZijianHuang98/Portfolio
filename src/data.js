@@ -99,13 +99,13 @@ export const mobilePortfolio = [
         id: 5,
         title: "~",
         img:
-            "assets/t4.PNG",
+            "assets/t4.png",
     },
     {
         id: 6,
         title: "~",
         img:
-            "assets/t6.PNG",
+            "assets/t6.png",
     },
 ];
 

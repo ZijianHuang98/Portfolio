@@ -5,7 +5,6 @@ import {
     featuredPortfolio,
     webPortfolio,
     mobilePortfolio,
-    designPortfolio,
     contentPortfolio,
 } from "../../data";
 
@@ -20,11 +19,11 @@ export default function Portfolio() {
         },
         {
             id: "web",
-            title: "Zijian's Hbbies",
+            title: "Zijian's Hobbies",
         },
         {
             id: "mobile",
-            title: "Golbal Orientation Leader's Team",
+            title: "Global Orientation Leader's Team",
         },
         {
             id: "content",

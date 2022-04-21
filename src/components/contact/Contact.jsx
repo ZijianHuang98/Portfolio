@@ -15,7 +15,7 @@ export default function Contact() {
         <img src="assets/shake.svg" alt="" />
       </div>
       <div className="right">
-        <h2 className='header'>Thank you so much for veiwing my website, hope you enjoy it </h2>
+        <h2 className='header'>Thank you so much for visiting my website, hope you enjoy it </h2>
         <hr />
         <h1>Get in touch</h1>
         {/* <div className="itemContainer">
@@ -36,7 +36,7 @@ export default function Contact() {
         </div>
 
         <div className="itemContainer">
-          <GitHubIcon  color="secondary" onClick={() => window.open('https://github.com/ZijianHuang98')} className="icon" sx={{ fontSize: 50 }}/>
+          <GitHubIcon  color="secondary" onClick={() => window.open('https://github.com/zijian98')} className="icon" sx={{ fontSize: 50 }}/>
           <LinkedInIcon  color="primary" onClick={() => window.open('https://www.linkedin.com/in/zhk2x/')} className="icon" sx={{ fontSize: 50 }}/>
           <EmailIcon className="icon" onClick={() => window.open('mailto:jessehuang05@yahoo.com')} sx={{ fontSize: 50 }}/>
           <LocalPhoneIcon className="icon"  onClick={() => window.open('tel:314-532-0668')} sx={{ fontSize: 50 }}/>
